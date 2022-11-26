@@ -159,8 +159,6 @@ function animate() {
   c.restore();
 }
 
-console.log(levels)
-
 function nextLevel() {
   gsap.to(overlay, {
     opacity: 1,
